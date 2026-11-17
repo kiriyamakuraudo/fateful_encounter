@@ -463,7 +463,8 @@ function getRandomItem(list) {
                         result.percent = 50.0
                         }
                     if (i === 1) {
-                        // 1 〜 100 のランダムな整数
+                        // ランダムな整数
+                        result.percent = (Math.floor(Math.random() * 500) + 400) / 100;
                         const randomNumber = Math.random() * 90;
                         }
 
